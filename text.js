@@ -1,0 +1,45 @@
+var emphasis = ["really",
+                "sincerely",
+                "officially",
+                "actually",
+                "truly",
+                "proverbially"
+               ];
+var care = ["cared about",
+            "loved",
+            "thought about",
+            "considered",
+            "valued",
+            "understood",
+            "believed"
+           ];
+var action = ["participated in my startup's focus group for 18-24 year old males",
+              "worn your smart pants",
+              "worn your fat pants",
+              "made me a(n) {item} from scratch",
+              "remembered the day we became Facebook friends",
+              "persuaded me to drop Operating Systems (CIS380)",
+              "picked me to be on your team before the ultimate frisbee scrimmage",
+              "passed me the baton the slow-and-safe way, not the Olympics way, {integer} years ago in high school",
+              "made Facebook's logo {color}",
+              "done your taxes after doing mine",
+              "said that you liked my hat",
+              "given me two presents in December even though my birthday is on Christmas",
+              "brought me flours instead of flowers",
+              "gotten me English muffins on Valentine's day",
+              "grated the cheese and grinded the pepper in front of me",
+              "gotten me some nuts and gum - together at last!",
+              "played 'Wonderwall' for me on your spankin' new guitar from Amazon",
+              "solved P = NP by now",
+              "installed a ceiling light with a light switch next to the door instead. None of that 'keep the ceiling pristine nonsense'",
+              "emptied your bladder prior to the road trip",
+              "continued talking to me in the adjacent bathroom cubicle"
+             ];
+var button = ["I'm blameless",
+              "Generate Another",
+              "Okay.",
+              "Let's hear another one!",
+              "Give me more whine material",
+              "Help me cry a river",
+              "Oh lamentations!"
+             ];
