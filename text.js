@@ -1,9 +1,38 @@
+var button = [
+    "Generate Another",
+    "Give me more whine material",
+    "Help me cry a river",
+    "I'm blameless",
+    "Let's hear another one!",
+    "More!",
+    "Oh lamentations!",
+    "Okay."
+];
+
+var angryStatement = [
+    'I feel so dejected',
+    'You\'re a jerk',
+    'Meanie',
+    'Big fat meanie',
+    'So',
+    'We<br>are never<br>ever<br>ever<br>getting back together',
+    'Hey, man',
+    'Hey, my so-called friend',
+    'Let\'s get this straight',
+    'Time to tell you the truth',
+    'So yeah',
+    'Listen ummm..',
+    'Okay okay hold up',
+    'Dearest best friend'
+];
+
 var emphasis = [
     "actually",
     "officially",
     "really",
     "sincerely",
-    "truly"
+    "truly",
+    'seriously'
 ];
 
 var care = [
@@ -20,11 +49,11 @@ var care = [
 var action = ["participated in my startup's focus group for 18-24 year old males",
               "worn your smart pants",
               "worn your fat pants",
-              "made me a(n) {item} from scratch",
+              "made me a(n) {homemadeItem} from scratch",
               "remembered the day we became Facebook friends",
               "persuaded me to drop Operating Systems (CIS380)",
               "picked me to be on your team before the ultimate frisbee scrimmage",
-              "passed me the baton the slow-and-safe way, not the Olympics way, {integer} years ago in high school",
+              "passed me the baton the slow-and-safe way, not the Olympics way, {int} years ago in high school",
               "made Facebook's logo {color}",
               "done your taxes after doing mine",
               "said that you liked my hat",
@@ -38,7 +67,7 @@ var action = ["participated in my startup's focus group for 18-24 year old males
               "installed a ceiling light with a light switch next to the door instead. None of that 'keep the ceiling pristine nonsense'",
               "emptied your bladder prior to the road trip",
               "continued talking to me in the adjacent bathroom cubicle",
-              "named a taste receptor after me",
+              "named your {namedThing} after me",
               "stolen the Grinch, just to be meta",
               "sent me Priority Mail 0th class",
               "written a blog post about me",
@@ -51,17 +80,51 @@ var action = ["participated in my startup's focus group for 18-24 year old males
               "invented fatty fat free milk",
               "bought me a billboard",
               "made a subreddit all about me",
-              "named a programming language after me",
               "supported vegetarianism but boycotted PETA"
              ];
 
-var button = [
-    "Generate Another",
-    "Give me more whine material",
-    "Help me cry a river",
-    "I'm blameless",
-    "Let's hear another one!",
-    "More!",
-    "Oh lamentations!",
-    "Okay."
+var color = [
+    'red',
+    'orange',
+    'yellow',
+    'green',
+    'blue',
+    'purple',
+    'pink',
+    'black',
+    'silver'
+];
+  
+var homemadeItem = [
+    'caramel',
+    'pie',
+    'iceberg lettuce salad',
+    'baloney sandwich',
+    'sous vide duck',
+    'marshmallow',
+    'corn puffer and extruder',
+    'non-alcoholic screwdriver',
+    'humble pie',
+    'multi-billion dollar start-up business proposal',
+    'pair of sandals',
+    'JavaScript framework'
+];
+
+var namedThing = [
+    'third start-up',
+    'business',
+    'newly-discovered taste receptor',
+    'newly-discovered gene',
+    'virtual machine',
+    'terminal',
+    'operating system',
+    'programming language',
+    'new species of mosquito',
+    'pet rabbit'
+];
+
+var gender = [
+    'male',
+    'female',
+    'pansexual'
 ];
