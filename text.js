@@ -32,7 +32,15 @@ var emphasis = [
     "really",
     "sincerely",
     "truly",
-    'seriously'
+    'seriously',
+    'earnestly',
+    'passionately',
+    '- all joking aside -',
+    'desperately',
+    'actively',
+    'strongly',
+    'fiercely',
+    '- without hesitation -'
 ];
 
 var care = [
@@ -44,44 +52,56 @@ var care = [
     "thought about",
     "valued",
     "understood",
+    "felt passion for",
+    "admired",
+    "adored",
+    "had a crush on",
+    "had a tender spot for",
+    "yearned for",
+    "desired",
+    "had a sizable fluttering in your stomach every time you saw"
 ];
 
-var action = ["participated in my startup's focus group for 18-24 year old males",
-              "worn your smart pants",
-              "worn your fat pants",
-              "made me a(n) {homemadeItem} from scratch",
-              "remembered the day we became Facebook friends",
-              "persuaded me to drop Operating Systems (CIS380)",
-              "picked me to be on your team before the ultimate frisbee scrimmage",
-              "passed me the baton the slow-and-safe way, not the Olympics way, {int} years ago in high school",
-              "made Facebook's logo {color}",
-              "done your taxes after doing mine",
-              "said that you liked my hat",
-              "given me two presents in December even though my birthday is on Christmas",
-              "brought me flours instead of flowers",
-              "gotten me English muffins on Valentine's day",
-              "grated the cheese and grinded the pepper in front of me",
-              "gotten me some nuts and gum - together at last!",
-              "played 'Wonderwall' for me on your spankin' new guitar from Amazon",
-              "solved P = NP by now",
-              "installed a ceiling light with a light switch next to the door instead. None of that 'keep the ceiling pristine nonsense'",
-              "emptied your bladder prior to the road trip",
-              "continued talking to me in the adjacent bathroom cubicle",
-              "named your {namedThing} after me",
-              "stolen the Grinch, just to be meta",
-              "sent me Priority Mail 0th class",
-              "written a blog post about me",
-              "bought me a parking spot in San Francisco",
-              "sent me chicken and rice from Philly on my birthday",
-              "eaten the high fructose corn syrup parts of the cake for me",
-              "scrambled my eggs the Gordon Ramsey style",
-              "bought me an animal shelter",
-              "bought me the rights to The Spongebob Movie III",
-              "invented fatty fat free milk",
-              "bought me a billboard",
-              "made a subreddit all about me",
-              "supported vegetarianism but boycotted PETA"
-             ];
+var action = [
+    "worn your smart pants",
+    "worn your fat pants",
+    "remembered the day we became Facebook friends",
+    "persuaded me to drop Operating Systems (CIS380)",
+    "picked me to be on your team before the ultimate frisbee scrimmage",
+    "done your taxes after doing mine",
+    "said that you liked my hat",
+    "given me two presents in December even though my birthday is on Christmas",
+    "brought me flours instead of flowers",
+    "gotten me English muffins on Valentine's day",
+    "grated the cheese and grinded the pepper in front of me",
+    "gotten me some nuts and gum - together at last!",
+    "played 'Wonderwall' for me on your spankin' new guitar from Amazon",
+    "solved P = NP by now",
+    "installed a ceiling light with a light switch next to the door instead. None of that 'keep the ceiling pristine nonsense'",
+    "emptied your bladder prior to the road trip",
+    "continued talking to me in the adjacent bathroom cubicle",
+    "stolen the Grinch, just to be meta",
+    "sent me Priority Mail 0th class",
+    "written a blog post about me",
+    "bought me a parking spot in San Francisco",
+    "sent me chicken and rice from Philly on my birthday",
+    "eaten the high fructose corn syrup parts of the cake for me",
+    "scrambled my eggs the Gordon Ramsey style",
+    "bought me an animal shelter",
+    "bought me the rights to The Spongebob Movie III",
+    "invented fatty fat free milk",
+    "made a subreddit all about me",
+    "supported vegetarianism but boycotted PETA"
+];
+
+var varAction = [
+    "participated in my startup's focus group for {int}-{int} year-old {gender}s",
+    "bought me a {nonVowelItem}",
+    "named your {namedThing} after me",
+    "made Facebook's logo {color}",
+    "made me a(n) {homemadeItem} from scratch",
+    "passed me the baton the slow-and-safe way, not the Olympics way, {int} years ago in high school"
+];
 
 var color = [
     'red',
@@ -94,11 +114,11 @@ var color = [
     'black',
     'silver'
 ];
-  
+
 var homemadeItem = [
     'caramel',
     'pie',
-    'iceberg lettuce salad',
+    'whole iceberg lettuce salad',
     'baloney sandwich',
     'sous vide duck',
     'marshmallow',
@@ -107,11 +127,23 @@ var homemadeItem = [
     'humble pie',
     'multi-billion dollar start-up business proposal',
     'pair of sandals',
-    'JavaScript framework'
+    'JavaScript framework',
+    'tapioca puddin\''
 ];
 
+var nonVowelItem = [
+    'billboard',
+    'pool table without balls because they hurt when aimed at the kneecaps',
+    'potato',
+    'nail scrubber',
+    'floppy disk',
+    'large bottle of lime green nail polish',
+    'reusable water bottle.',
+    'fancy drip coffee'
+].concat(homemadeItem);
+
 var namedThing = [
-    'third start-up',
+    '{int}th start-up',
     'business',
     'newly-discovered taste receptor',
     'newly-discovered gene',

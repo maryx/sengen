@@ -24,16 +24,21 @@ function getRandomNum(start, count) {
 }
 function getEmphasis() {
     var e = getRandom(emphasis);
-    if (Date.now() % 5 === 0) {
+    if (e.indexOf(' ') < 0 && Date.now() % 5 === 0) {
         return e.split('').join('-');
     }
     return e;
 }
 function getAction() {
-    var a = getRandom(action);
-    a = a.split('{int}').join(getRandomNum(5, 20))
-        .split('{color}').join(getRandom(color))
-        .split('{homemadeItem}').join(getRandom(homemadeItem))
-        .split('{namedThing}').join(getRandom(namedThing));
-    return a;
+    if (Date.now() % 2 === 0) {
+	return getRandom(action);
+    } else {
+	var a = getRandom(varAction);
+	return a.split('{int}').join(getRandomNum(5, 40))	
+            .split('{color}').join(getRandom(color))
+            .split('{gender}').join(getRandom(gender))
+            .split('{homemadeItem}').join(getRandom(homemadeItem))
+	    .split('{nonVowelItem}').join(getRandom(namedThing))
+            .split('{namedThing}').join(getRandom(namedThing));
+    }
 }
