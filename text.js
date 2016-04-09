@@ -91,7 +91,10 @@ var action = [
     "bought me the rights to The Spongebob Movie III",
     "invented fatty fat free milk",
     "made a subreddit all about me",
-    "supported vegetarianism but boycotted PETA"
+    "supported vegetarianism but boycotted PETA",
+    "ordered some potato salad. Yes.",
+    "put bunny ears on a bunny",
+    "whittled a whistle out of a willow weed that whispers wonderful witchery"
 ];
 
 var varAction = [
